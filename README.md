@@ -91,5 +91,6 @@ This is barebones  browsersync configuration. Add any additional settings you'd 
 
 
 ## Project To Do's
-I will be changing the flask portion of this soon, to use the blueprint setup instead.
-I'll also soon look into a Django version of this project setup.
+- I will be changing the flask portion of this soon, to use the blueprint setup instead.
+- I'll also soon look into a Django version of this project setup.
+- I'd like to add custom tsconfig locations for babel. That way you can also compile regular typescript without react by using another config file. However, I do not know enough about babel, or configuring babel and typescript to make that work.
