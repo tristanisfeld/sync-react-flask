@@ -1,0 +1,9 @@
+
+
+# Folders
+.pytest_cache/
+env/
+node_modules/
+
+# ignore build folder
+server/App/static/
