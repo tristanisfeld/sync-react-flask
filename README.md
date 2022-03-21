@@ -3,7 +3,7 @@ This is not a library. This is not a framework.
 
 This is a project starter!
 
-This is simply for begging a new project with very little configuration.
+This is simply for beginning a new project with very little configuration.
 Very little opinions. Just preconfigured to work.
 
 
