@@ -8,7 +8,7 @@ Very little opinions. Just preconfigured to work.
 
 
 ## Getting Started
-- Download: `git clone`
+- Download: `git clone https://github.com/tristanisfeld/sync-react-flask.git`
 - open folder and remove git from project
 
 Follow these steps:
