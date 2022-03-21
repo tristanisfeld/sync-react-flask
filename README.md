@@ -42,6 +42,13 @@ The default is: "http://127.0.0.1:5000/", and maybe your's is not that.
 - `npm run build:watch` - create a development and watches the files
 - `npm run start` - Requires the python server to be running. Runs the build:watch script, along with the minimal browsersync.js file, using concurrently so you do not need to have 2 terminals open for both of these. 
 
+## Project Setups For
+- Flask - Basic Config (flask is for python)
+- React - Initial Setup
+- Webpack
+  - TypeScript with React
+  - Sass
+- Browsersync - To have reloading on save with the flask server
 
 
 ## Notes About Webpack Config
