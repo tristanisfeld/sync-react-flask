@@ -6,6 +6,8 @@ This is a project starter!
 This is simply for beginning a new project with very little configuration.
 Very little opinions. Just preconfigured to work.
 
+Setting up React and Flask is quite time consuming. And trying to do so with create-creact-app, you have to npm run eject, and change some routes and paths, etc. So I created a custom project setup. You just need to run git clone, and then a few install commands, start the server, and it'll just work.
+
 
 ## Getting Started
 - Download: `git clone https://github.com/tristanisfeld/sync-react-flask.git`
