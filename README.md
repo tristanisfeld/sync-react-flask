@@ -13,21 +13,30 @@ Setting up React and Flask is quite time consuming. And trying to do so with cre
 - Download: `git clone https://github.com/tristanisfeld/sync-react-flask.git`
 - open folder and remove git from project
 
-Follow these steps:
+Streamlined Installation Process
+* (optional) - Create and start a new python environment, then
+1. run: `npm run initialize` **NOTE:** if you have to use pip3, then edit the package.json scripts "initialize", changing pip to pip3 - initialize installs python requirements.txt and npm install, then initial npm run build
+2. run: `npm run start` - concurrently runs flask server, build:watch, browsersync
+
+
+
+If you'd prefer to manually, follow these steps individually:
 * (optional) - Create and start a new python environment, then
 1. run: `pip install -r requirements.txt`
 2. run: `npm install`
 3. run: `npm run build` (this is to get an initial build setup)
-4. run: `python ./server/app.py` (to run python server)
-5. open a new terminal tab (or new command line) in this directory
-6. run: `npm run start` (this will run build:watch and browser-sync)
+4. run: `npm run start` (this will run build:watch and browser-sync)
+
+
   
-If it automagically loads in your browser with the welcome message, everything is working.
+If it automagically loads in your browser with the welcome message, everything is working. (**note:** if it is a white screen after a few seconds, manually reload the browser. The browsersync may have just started before webpack finished building)
 Go to the src folder, and edit the sass files or the js files and test if reloading works as it should.
 
 From here, go to your package.json file, change the name of the project.
 You can run a git init, and begin your project.
 
+To run the flask server by itself:
+run: `python ./server/app.py`
 
 
 ## Troubleshooting
