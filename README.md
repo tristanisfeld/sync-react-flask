@@ -10,6 +10,10 @@ Setting up React and Flask is quite time consuming. And trying to do so with cre
 
 
 ## Getting Started
+
+- Here is a [Very Handy One Command Install for Windows Users](./docs/installation/powershellScripts.md)
+**NOTE:** If you are a mac or linux user, it would be cool if you could make a simple one command bash or zsh script to add here!
+
 - Download: `git clone https://github.com/tristanisfeld/sync-react-flask.git`
 - open folder and remove git from project
 
